@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>khushboo Gruh Udhyog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="myfirstproject.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+<div class="header">
+	<div class="heading" id="Home">
+		<center>
+		<img src="4.png" alt="potatochipsimage">
+		<font style="font-size:50px; text-align: center; font-weight: bold;">Kushboo Gruh Udhyog</font>
+		</center>
+	</div>
+<!--  top navbar -->
+	<div class="topnav" id="myTopnav">
+		
+		<a href="#Home" id="btn">Home</a>
+		<a href="#Products" id="btn">Products</a>
+		<a href="#AboutUs" id="btn">About Us</a>
+		<a href="#feed" id="btn">Feedback</a>
+		<a href="javascript:void(0)" onclick="myFunction()" class="icon" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		
+	</div>
+	<br>
+	<br>
+<!--  slide show -->
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img src="1.png" style="width:100%; height:560px;">
+		  <div class="text">Crunchy SoyaStick</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 4</div>
+		  <img src="2.png" style="width:100%; height:560px;">
+		  <div class="text">Tasty Chavana</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 4</div>
+		  <img src="3.png" style="width:100%; height:560px;">
+		  <div class="text">Delicious KelaWafer</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">4 / 4</div>
+		  <img src="4.png" style="width:100%; height:560px;">
+		  <div class="text">Salty</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+<br>
+<br>
+
+</div>
+<hr style="border: 2px solid red;">
+
+<div id="Products" class="Products">
+	<br><br>
+	<center><font style="color:blue; font-size:30px; font-family:'Lucida Console', 'Courier', 'monospace';">PRODUCTS</font></center>
+	<br>
+	<table id="customers">
+		<tr>
+			<th style="width:500px;">Photo</th>
+			<th>Product</th>
+			<th>Price</th>
+			<th>Rating</th>
+		</tr>
+		<tr>
+			<td><img src="bananawafer.png"></td>
+			<td>Banana Wafer</td>
+			<td>150 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="potatochips.png"></td>
+			<td>Potato Wafer</td>
+			<td>200 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="mixchavana.png"></td>
+			<td>Mix Chavana</td>
+			<td>120 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="ratlamisev.png"></td>
+			<td>Ratlami Sev</td>
+			<td>120 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="soyastick.png"></td>
+			<td>Soya Stick</td>
+			<td>140 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="chevda.png"></td>
+			<td>Chevda</td>
+			<td>150 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="sev.png"></td>
+			<td>Sev</td>
+			<td>120 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="kachori.png"></td>
+			<td>Kachori</td>
+			<td>150 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="rajwadichavana.png"></td>
+			<td>Rajwadi Chavana</td>
+			<td>140 Rs / Kg</td>
+			<td>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</td>
+		</tr>
+	</table>
+<br>
+</div>
+
+
+
+<div id="AboutUs">
+	<hr style="border: 2px solid red;">
+	<h1 style="color:#880000;">About Us</h1>
+	<h1 style="color:#330099;">Khushboo Gruh Udhyog</h1>
+	<h2 style="color:#6622aa;">Always Fresh</h2>
+	<h2 style="color:#77472a;">Stay Safe and Healthy</h2>
+	<p style="font-size: 20px; color:#3363a6;">We are serving you from <span>1990</span> and try to continue serving forever.<br>
+	We have 25 branches at different states of India and also 5 branches in America.</p>
+	<pre style="font-size: 20px; color:#993366; ">
+	A-101, ABC Towers,
+	near RTO circle,
+	Ahmedabad - 374728,
+	Gujarat , India
+
+	Bharatbhai Patel
+	Mob : 9998387188
+	Email : khushboo@gmail.com
+	</pre>
+	<hr style="border: 2px solid red;"> 
+</div>
+<div class="feed" id="feed">
+<hr style="border: 2px solid red;">
+	<h1 style="text-align:center;">Feedback Form</h1>
+	<div id="Feedback">
+		<center>
+		<fieldset style="width:500px; height: 270px; ">
+		<legend>Enter Your Info Here...</legend>
+			<form>
+				<br>
+				Full Name : <input type="text"><br>
+				email : <input type="email"><br><br>
+				Feedback : <br><textarea style="width:300px; height:50px;">Write you feedback here..</textarea> 
+			</form>
+		</fieldset>
+		</center>
+	</div>
+<hr style="border: 2px solid red;">
+</div>
+<center>
+<footer class="foot">
+	<hr style="border: 2px solid red;">
+  <br>
+  <br>
+  <br>
+  <i class="fa fa-facebook-official "></i>
+  <i class="fa fa-instagram "></i>
+  <i class="fa fa-snapchat "></i>
+  <i class="fa fa-pinterest-p "></i>
+  <i class="fa fa-twitter "></i>
+  <i class="fa fa-linkedin "></i>
+  <p class="w3-medium">Powered by <a href="#Home" target="_blank">Aksh Patel</a></p>
+  <br>
+  <hr style="border: 2px solid red;">
+</footer>
+</center>
+
+<br>
+<script src="myfirstproject.js"></script>
+</body>
+</html>
